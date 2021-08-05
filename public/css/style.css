@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    overflow: hidden;
+    margin: 0 auto;
+}
