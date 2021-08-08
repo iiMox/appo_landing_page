@@ -7,8 +7,8 @@ import logoImg from "../../images/logo.png";
 const Navbar = () => {
     return (
         <>
-            <div className='container'>
-                <nav>
+            <nav>
+                <div className='container'>
                     <div className='logo'>
                         <img src={logoImg} alt='LOGO' />
                     </div>
@@ -22,15 +22,13 @@ const Navbar = () => {
                     <div className='left-side'>
                         <button>Get The App</button>
                         <div className='more'>
-                            <ul>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </>
     );
 };

@@ -1,8 +1,12 @@
 nav {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+nav .container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10px 0;
 }
 
 nav .logo {
@@ -55,20 +59,30 @@ nav .left-side button {
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+nav .left-side button:hover {
+    transform: translateX(-10px);
 }
 
 nav .left-side .more {
-}
-
-nav .left-side .more ul {
-    width: 20px;
+    height: inherit;
+    width: 30px;
     display: flex;
-    margin: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    cursor: pointer;
 }
 
-nav .left-side .more ul li {
-    height: 4px;
-    width: 100%;
+nav .left-side .more span {
+    height: 3px;
     background-color: #fff;
-    display: inline-block;
+    border-radius: 10px;
+    margin-bottom: 7.75px;
+}
+
+nav .left-side .more span:first-of-type {
+    margin-top: 7.75px;
 }
