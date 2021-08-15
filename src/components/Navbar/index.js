@@ -5,6 +5,15 @@ import "./Navbar.css";
 import logoImg from "../../images/logo.png";
 
 const Navbar = () => {
+    const onClickLink = (e) => {
+        const myLi = e.target;
+        const itemsList = myLi.parentNode.childNodes;
+        itemsList.forEach((item) => {
+            item.classList.remove("active");
+        });
+        myLi.classList.add("active");
+    };
+
     return (
         <>
             <nav>
@@ -14,9 +23,9 @@ const Navbar = () => {
                     </div>
                     <div className='links'>
                         <ul>
-                            <li>Home</li>
-                            <li>Features</li>
-                            <li>Pricing</li>
+                            <li onClick={(e) => onClickLink(e)}>Home</li>
+                            <li onClick={(e) => onClickLink(e)}>Features</li>
+                            <li onClick={(e) => onClickLink(e)}>Pricing</li>
                         </ul>
                     </div>
                     <div className='left-side'>

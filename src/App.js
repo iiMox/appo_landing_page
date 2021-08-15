@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 
 import Header from "./components/Header";
+import Offers from "./components/Offers";
 
 const App = () => {
     useEffect(() => {
@@ -11,13 +12,12 @@ const App = () => {
         mySlider.style.height = `${
             window.innerHeight - myHeader.offsetHeight
         }px`;
-        console.log(window.innerHeight);
-        console.log(myHeader.offsetHeight);
     }, []);
 
     return (
         <>
             <Header />
+            <Offers />
         </>
     );
 };
