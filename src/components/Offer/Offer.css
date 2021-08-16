@@ -1,0 +1,21 @@
+.offer {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.offer h4 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.offer p {
+    font-size: 15px;
+    color: #97a4be;
+    line-height: 30px;
+    text-align: center;
+}
