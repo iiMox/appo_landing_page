@@ -1,0 +1,80 @@
+.features {
+    padding: 80px 0;
+}
+
+.features .stable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.features .stable .left-side {
+    width: 50%;
+    text-align: right;
+}
+
+.features .stable .left-side h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.features .stable .left-side p {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    margin-bottom: 40px;
+    color: #97a4be;
+}
+
+.features .stable .left-side button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 40px;
+    background-color: #00fff0;
+    color: #213f53;
+    font-weight: 600;
+    font-size: 17px;
+    transition: all 0.25s ease-in-out;
+}
+
+.features .stable .left-side button:hover {
+    background-color: #213f53;
+    color: #00fff0;
+}
+
+.features .stable .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.features .stable .right-side img {
+    width: 85%;
+    margin: 10px 0;
+}
+
+.features .props {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.features .props .left-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .props .right-side {
+    width: 50%;
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

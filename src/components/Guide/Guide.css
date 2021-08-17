@@ -13,3 +13,21 @@
     width: 50%;
     padding: 50px 0;
 }
+
+.guide .right-side .box {
+    width: calc(1170px / 2);
+    padding: 0 40px 0 80px;
+}
+
+.guide .right-side .box h2 {
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.guide .right-side .box p {
+    font-size: 17px;
+    color: #97a4be;
+    line-height: 30px;
+}

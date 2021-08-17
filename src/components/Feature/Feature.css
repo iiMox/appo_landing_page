@@ -1,0 +1,53 @@
+.feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    margin-bottom: 30px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    width: 80%;
+    padding: 15px 10px 15px;
+    align-items: flex-start;
+    transition: all 0.25s ease-in-out;
+}
+
+.feature:hover,
+.feature.active {
+    background-color: #00fff0;
+}
+
+.feature .img-box {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.feature .desc-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature .desc-box h4 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px 0 15px;
+}
+
+.feature .desc-box p.hidden {
+    margin-top: 0;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    transition: all 0.25s ease-in-out;
+    height: auto;
+    margin: 0;
+}
+
+.feature .desc-box p.hidden {
+    height: 0;
+    overflow: hidden;
+}

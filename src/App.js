@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Header from "./components/Header";
 import Offers from "./components/Offers";
 import Guide from "./components/Guide";
+import Features from "./components/Features";
 
 const App = () => {
     useEffect(() => {
@@ -13,11 +14,6 @@ const App = () => {
         mySlider.style.height = `${
             window.innerHeight - myHeader.offsetHeight
         }px`;
-
-        const containerWidth = document.querySelector(".container").style.width;
-        console.log(document.querySelector(".container").style);
-        document.querySelector(".guide .box").style.width =
-            containerWidth + "px";
     }, []);
 
     return (
@@ -25,6 +21,7 @@ const App = () => {
             <Header />
             <Offers />
             <Guide />
+            <Features />
         </>
     );
 };
