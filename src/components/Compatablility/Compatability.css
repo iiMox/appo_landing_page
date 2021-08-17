@@ -1,0 +1,87 @@
+.comp {
+    padding: 80px 0 0;
+    background-color: #f5f6fa;
+}
+
+.comp .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.comp .left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-bottom: 80px;
+}
+
+.comp .left-side h2 {
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.comp .left-side ul {
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    margin-bottom: 5px;
+    padding-right: 40px;
+}
+
+.comp .left-side ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.comp .left-side ul div {
+    display: inline-flex;
+    background-color: #00fff0;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.comp .left-side p {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    text-align: right;
+    color: #97a4be;
+}
+
+.comp .right-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.comp .right-side div {
+    background-color: #fff;
+    box-shadow: rgb(99 99 99 / 30%) 0px 2px 8px 0px;
+}
+
+.comp .right-side div:nth-of-type(1) {
+    width: 15%;
+    height: 80%;
+}
+
+.comp .right-side div:nth-of-type(2) {
+    background-color: #2c3233;
+    width: 35%;
+    height: 100%;
+    box-shadow: none;
+}
+
+.comp .right-side div:nth-of-type(3) {
+    width: 15%;
+    height: 70%;
+}

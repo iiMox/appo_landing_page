@@ -5,6 +5,10 @@ import Header from "./components/Header";
 import Offers from "./components/Offers";
 import Guide from "./components/Guide";
 import Features from "./components/Features";
+import Compatability from "./components/Compatablility";
+import Intro from "./components/Intro";
+import Join from "./components/Join";
+import Quote from "./components/Quote";
 
 const App = () => {
     useEffect(() => {
@@ -22,6 +26,10 @@ const App = () => {
             <Offers />
             <Guide />
             <Features />
+            <Compatability />
+            <Intro />
+            <Join />
+            <Quote />
         </>
     );
 };

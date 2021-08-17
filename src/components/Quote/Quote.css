@@ -1,0 +1,15 @@
+.qoute {
+    padding: 80px;
+    background-color: #223047;
+    color: #00fff0;
+}
+
+.qoute p {
+    width: 75%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 35px;
+    letter-spacing: 0.8px;
+    font-weight: 300;
+    margin: 0 auto;
+}
