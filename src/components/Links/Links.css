@@ -1,0 +1,23 @@
+.links h4 {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #97a4be;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.links ul li:hover {
+    transform: translateX(5px);
+}

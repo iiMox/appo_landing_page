@@ -1,0 +1,52 @@
+.download {
+    padding: 80px 0;
+    background-color: #f5f6fa;
+}
+
+.download .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.download .left-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+.download .right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download .right-side h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0 0 30px;
+}
+
+.download .right-side p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 35px;
+    margin-bottom: 50px;
+    color: #9da9c2;
+}
+
+.download .right-side .download-buttons img {
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.download .right-side .download-buttons img:hover {
+    transform: translateY(-10px);
+}
+
+.download .right-side .download-buttons img:last-of-type {
+    margin-left: 30px;
+}

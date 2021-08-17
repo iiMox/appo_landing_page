@@ -9,6 +9,9 @@ import Compatability from "./components/Compatablility";
 import Intro from "./components/Intro";
 import Join from "./components/Join";
 import Quote from "./components/Quote";
+import Download from "./components/Download";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
     useEffect(() => {
@@ -30,6 +33,10 @@ const App = () => {
             <Intro />
             <Join />
             <Quote />
+            <Download />
+
+            <Contact />
+            <Footer />
         </>
     );
 };

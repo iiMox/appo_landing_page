@@ -1,0 +1,34 @@
+footer {
+    background-color: #223047;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .rights {
+    color: #07d6cf;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+footer .social ul {
+    list-style: none;
+    margin: 0;
+}
+
+footer .social ul li {
+    display: inline;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+footer .social ul li:hover {
+    transform: scale(1.05, 1.05);
+}

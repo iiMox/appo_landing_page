@@ -1,0 +1,71 @@
+.contact {
+    padding: 80px 0;
+    position: relative;
+}
+
+.contact button.btw {
+    position: absolute;
+    background-color: #00fff0;
+    color: #213f53;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .links-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    margin-top: 0;
+    color: #97a4be;
+}
+
+.contact form {
+    margin-top: 50px;
+    width: 80%;
+}
+
+.contact form input {
+    width: 70%;
+    border: none;
+    background-color: #f5f6fa;
+    padding: 16.5px 20px;
+    outline: none;
+    margin-right: 5%;
+}
+
+.contact form button {
+    width: 25%;
+    border: none;
+    background-color: #00fff0;
+    color: #213f53;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
