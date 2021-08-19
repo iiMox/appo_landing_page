@@ -31,6 +31,7 @@ nav .links ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     width: 75%;
 }
 
@@ -41,6 +42,7 @@ nav .links ul li {
     cursor: pointer;
     transition: all 0.25s ease-in-out;
     position: relative;
+    margin: 0;
 }
 
 nav .links ul li::after {
@@ -106,4 +108,30 @@ nav .left-side .more span {
 
 nav .left-side .more span:first-of-type {
     margin-top: 7.75px;
+}
+
+@media (max-width: 767px) {
+    nav .container {
+        justify-content: space-between;
+    }
+
+    nav .links,
+    nav .left-side button {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    nav .container {
+        justify-content: space-between;
+    }
+
+    nav .links,
+    nav .left-side button {
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
 }

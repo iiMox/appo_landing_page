@@ -31,3 +31,67 @@
     color: #97a4be;
     line-height: 30px;
 }
+
+@media (max-width: 767px) {
+    .guide .right-side {
+        width: 50%;
+    }
+
+    .guide .right-side .box {
+        width: 90%;
+        padding: 0 40px;
+    }
+
+    .guide .right-side .box h2 {
+        font-size: 34px;
+        letter-spacing: 0.8px;
+    }
+
+    .guide .right-side .box p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .guide .right-side {
+        width: 50%;
+    }
+
+    .guide .right-side .box {
+        width: 90%;
+        padding: 0 40px;
+    }
+
+    .guide .right-side .box h2 {
+        font-size: 34px;
+        letter-spacing: 0.8px;
+    }
+
+    .guide .right-side .box p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .guide .right-side {
+        width: 50%;
+    }
+
+    .guide .right-side .box {
+        width: 90%;
+        padding: 0 40px;
+    }
+
+    .guide .right-side .box h2 {
+        font-size: 36px;
+        letter-spacing: 0.8px;
+    }
+
+    .guide .right-side .box p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 1200px) {
+}

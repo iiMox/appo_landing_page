@@ -69,3 +69,35 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .contact .links-box {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+    }
+
+    .contact p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact form input {
+        width: 60%;
+    }
+
+    .contact form button {
+        width: 35%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}

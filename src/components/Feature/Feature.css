@@ -1,7 +1,6 @@
 .feature {
     display: flex;
     flex-direction: row;
-    align-items: center;
     box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
     margin-bottom: 30px;
     transition: all 0.25s ease-in-out;
@@ -9,7 +8,6 @@
     width: 80%;
     padding: 15px 10px 15px;
     align-items: flex-start;
-    transition: all 0.25s ease-in-out;
 }
 
 .feature:hover,
@@ -50,4 +48,35 @@
 .feature .desc-box p.hidden {
     height: 0;
     overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .feature .desc-box {
+        margin-left: 10px;
+    }
+    .feature .desc-box h4 {
+        font-size: 17px;
+        margin: 20px 0 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .feature .desc-box {
+        margin-left: 10px;
+    }
+    .feature .desc-box h4 {
+        font-size: 17px;
+        margin: 20px 0 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .feature .desc-box {
+        margin-left: 10px;
+    }
+    .feature .desc-box h4 {
+        font-size: 17px;
+        margin: 20px 0 15px;
+    }
+}
+@media (min-width: 1200px) {
 }

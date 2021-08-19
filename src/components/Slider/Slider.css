@@ -67,3 +67,93 @@
 .slider .container .right-side img:hover {
     transform: rotate(-5deg);
 }
+
+@media (max-width: 767px) {
+    .slider .container .right-side {
+        padding-right: 20px;
+    }
+    .slider .container .right-side img {
+        max-width: 75%;
+    }
+
+    .slider .container .left-side h1 {
+        font-size: 42px;
+    }
+
+    .slider .container .left-side p {
+        font-size: 16px;
+    }
+
+    .slider .container .left-side .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider .container .left-side .buttons button {
+        font-size: 14px;
+        padding: 12px 0;
+        margin: 30px 0 10px 0;
+        width: 75%;
+    }
+
+    .slider .container .left-side .buttons button:last-of-type {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider .container .right-side {
+        padding-right: 20px;
+    }
+    .slider .container .right-side img {
+        max-width: 75%;
+    }
+
+    .slider .container .left-side h1 {
+        font-size: 45px;
+    }
+
+    .slider .container .left-side p {
+        font-size: 17px;
+    }
+
+    .slider .container .left-side .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .slider .container .left-side .buttons button {
+        font-size: 15px;
+        padding: 12px 0;
+        margin: 30px 0 10px 0;
+        width: 75%;
+    }
+
+    .slider .container .left-side .buttons button:last-of-type {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .slider .container .right-side {
+        padding-right: 20px;
+    }
+    .slider .container .right-side img {
+        max-width: 80%;
+    }
+
+    .slider .container .left-side h1 {
+        font-size: 42px;
+    }
+
+    .slider .container .left-side p {
+        font-size: 16px;
+    }
+
+    .slider .container .left-side .buttons button {
+        width: 40%;
+    }
+}
+@media (min-width: 1200px) {
+}

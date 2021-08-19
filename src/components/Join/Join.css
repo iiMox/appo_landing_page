@@ -41,3 +41,23 @@
 .join button:hover {
     transform: scale(1.05, 1.05);
 }
+
+@media (max-width: 767px) {
+    .join h2 {
+        font-size: 30px;
+        letter-spacing: 0.8px;
+        text-align: center;
+    }
+
+    .join p {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1200px) {
+}
